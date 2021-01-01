@@ -1,29 +1,38 @@
 body{
   font-family: "Montserrat";
+  text-align: center !important;
 }
 
-#title{
-  background-color: #ff4c68;
-  color: #fff;
-}
 /*Header*/
-h1{
+h1, h2, h3{
   font-family: 'Montserrat', sans-serif;
-  font-size: 3.5rem;
-  font-weight: bold;
-  line-height: 1.5;
-}
-h3{
-  font-family: 'Montserrat', sans-serif;
-}
-h2{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 3rem;
-  line-height: 1.5;
 }
 p{
   color: #8F8F8F;
 }
+.container-fluid{
+  Padding: 3% 15% 7% !important;
+}
+/*Headings*/
+.big-heading{
+  font-size: 3.5rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Sections */
+.colored-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+.white-section{
+  background-color: #fff;
+}
+
 /*NavBar*/
 .navbar-brand{
   font-family: "Ubuntu";
@@ -43,9 +52,13 @@ p{
 .download-button{
   margin: 5% 3% 5% 0;
 }
+
 /*Title-Image*/
+#title{
+  text-align: left;
+}
 .title-image{
-  width: 50%;
+  width: 60%;
   transform: rotate(25deg);
   position: absolute;
   right: 30%;
@@ -53,11 +66,9 @@ p{
 /*features*/
 #features{
   padding: 7% 15%;
-  background-color: #fff;
   position: relative;
 }
 .feature-box{
-  text-align: center;
   padding: 5%;
 }
 .icon{
@@ -67,11 +78,13 @@ p{
 .icon:hover{
   color: #ff4c68;
 }
+.feature-text{
+  font-size: 1.5rem;
+}
+
 /*Testimonial*/
 #testimonials{
-  text-align: center;
   background-color: #ef8172;
-  color: #fff;
 }
 .testimonial-image{
   width: 10%;
@@ -81,10 +94,13 @@ p{
 .carousel-item{
   padding: 7% 15%;
 }
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
 
 #press{
   background-color: #ef8172;
-  text-align: center;
   padding-bottom: 3%;
 }
 .press-images{
@@ -99,23 +115,18 @@ p{
 .pricing-column{
   padding: 3% 2%;
 }
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
 
 /*cta-section*/
 #cta{
-  background-color: #ff4c68;
-  color: #fff;
-  text-align: center;
   padding: 7% 15%;
-}
-.cta-heading{
-  font-size: 3.5rem;
-  line-height: 1.5;
 }
 
 /*Footer*/
 #footer{
-  background-color: #fff;
-  text-align: center;
   padding: 7% 15%;
 }
 .sm-icon{
